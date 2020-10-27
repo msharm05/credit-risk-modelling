@@ -12,22 +12,24 @@ The objective of this project was to build a machine learning model that can pre
 
 The dataset used in this project is comprised of financial data of 10000 different borrowers. Each record (borrower) has 15 different financial attributes (features) named X1 to X15. There is no background information available on these features. The data type of ecah feature is listed below:-
 
-X1: Categorical, 3 Categories.
-X2: Numeric, Missing values.
-X3: Numeric
-X4: Numeric, Missing values.
-X5: Numeric
-X6: Numeric
-X7: Numeric
-X8: Numeric
-X9: Numeric
-X10: Numeric
-X11: Numeric
-X12: Numeric
-X13: Categorical, 3 Categories.
-X14: Categorical, 5 Categories.
-X15: Categorical, 2 Categories.
-Deafult_Ind (Class Label) : Non-Default, Default.
+|Feature|Description|
+|---|---|
+|X1|Categorical, 3 Categories|
+|X2|Numeric, Missing values|
+|X3|Numeric|
+|X4|Numeric, Missing values|
+|X5|Numeric|
+|X6|Numeric|
+|X7|Numeric|
+|X8|Numeric|
+|X9|Numeric|
+|X10|Numeric|
+|X11|Numeric|
+|X12|Numeric|
+|X13|Categorical, 3 Categories|
+|X14|Categorical, 5 Categories|
+|X15|Categorical, 2 Categories|
+|Deafult_Ind (Class Label) : Non-Default, Default|
 
 The class distribution of the dataset is extremely imbalanced.
 
@@ -43,6 +45,7 @@ There are two files in the **CODE_dr** folder:-
 2. default_data.csv
 
 **financial_data.csv** contains financial attributes (X1-X15) of 10000 borrowers along with a unique **LOAN_ID** for each borrower.
+
 **default_data.csv** contains **LOAN_ID**(s) of borrowers with loan default.
 
 ## Results
