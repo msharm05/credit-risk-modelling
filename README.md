@@ -40,7 +40,7 @@ The class distribution of the dataset is extremely imbalanced.
 
 The first 7000 records are used as the train set and the remaining 3000 as the test set.
 
-There are two files in the **CODE_dr** folder:-
+There are two files in the **DATA_dr** folder:-
 1. financial_data.csv
 2. default_data.csv
 
