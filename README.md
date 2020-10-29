@@ -29,7 +29,7 @@ The dataset used in this project is comprised of financial data of 10000 differe
 |X13|Categorical, 3 Categories|
 |X14|Categorical, 5 Categories|
 |X15|Categorical, 2 Categories|
-|Deafult_Ind (Class Label) : Non-Default, Default|
+|Deafult_Ind (Class Label)|Non-Default, Default|
 
 The class distribution of the dataset is extremely imbalanced.
 
